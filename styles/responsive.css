@@ -1,0 +1,17 @@
+/* Breakpoints standards */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Flexbox pour un layout adaptatif */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-unit);
+} 

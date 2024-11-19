@@ -1,0 +1,21 @@
+/* Définir des variables CSS pour la cohérence */
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --spacing-unit: 1rem;
+  --border-radius: 4px;
+}
+
+/* Appliquer des styles cohérents aux boutons */
+.button {
+  padding: var(--spacing-unit);
+  border-radius: var(--border-radius);
+  background: var(--primary-color);
+  border: none;
+  color: white;
+  transition: opacity 0.2s;
+}
+
+.button:hover {
+  opacity: 0.9;
+} 
